@@ -892,8 +892,13 @@ iframe{
     .confian h3{
         font-size: 28px;
     }
+    .producto h3{
+        font-size: 35px;
+        margin: 0 0 10px 0;
+    }
     .producto div button{
         width: 200px;
+        font-size: 25px;
     }
     .novedades{
     grid-template-columns: 400px 400px;
@@ -1019,9 +1024,15 @@ iframe{
     .producto{
         width: 90%;
     }
+    .filtrar{
+        margin: 10px;
+    }
     .filtrar ul li{
         margin: 10px;
         font-size: 17px;
+    }
+    .nuestros-productos{
+        margin: 10px;
     }
     .formulario-y-comunicacion{
         flex-direction: column;
@@ -1119,13 +1130,11 @@ iframe{
         align-items: center;
     }
     .filtrar{
-        width: 90%;
+        width: 97%;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin: 20px 20px 0 20px;
-        padding: 0px;
     }
     .filtrar ul{
         flex-direction: row;
@@ -1134,6 +1143,14 @@ iframe{
     .filtrar ul li{
         margin: 5px;
         font-size: 15px;
+    }
+    .nuestros-productos{
+        width: 97%;
+        margin: 0px;
+    }
+    .producto{
+        width: 100%;
+        margin-bottom: 10px;
     }
     .novedades{
         grid-template-columns: 0.5fr 0.5fr;
@@ -1215,9 +1232,10 @@ iframe{
         margin: 10px;
     }
     .filtrar h2{
-        grid-column: 1/1;
+        grid-column: 1/2;
     }
     .filtrar ul{
+        width: 100%;
         grid-column: 2/4;
         display: grid;
         grid-template-columns: 2fr 1fr;
@@ -1304,6 +1322,12 @@ iframe{
     }
 }
 @media screen and (max-width: 660px){
+    .filtrar{
+        width: 95%;
+    }
+    .nuestros-productos{
+        width: 95%;
+    }
     .novedades{
         grid-template-columns: 0.9fr;
         grid-template-rows: 30px 300px 300px 300px 300px;
@@ -1323,22 +1347,6 @@ iframe{
         font-size: 13px;
         letter-spacing: 1px;
         line-height: 15px;
-    }
-    .filtrar{
-        display: flex;
-        flex-direction: row;
-        align-items: start;
-        justify-content: start;
-    }
-    .filtrar h2{
-        width: 70%;
-        font-size: 28px;
-    }
-    .filtrar ul{
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: start;
     }
     .novedades{
         grid-template-columns: 1frfr;
@@ -1422,9 +1430,21 @@ iframe{
         font-size: 29px;
     }
     .filtrar{
-        padding: 0px;
+        display: flex;
+        flex-direction: row;
+        align-items: start;
+        justify-content: start;
+        padding: 0;
+    }
+    .filtrar h2{
+        width: 70%;
+        font-size: 28px;
     }
     .filtrar ul{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
         padding: 1px;
     }
     .filtrar ul li{
