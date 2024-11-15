@@ -833,8 +833,6 @@ iframe{
 @media screen and (max-width: 1265px){
     .hero img{
         width: 50%;
-        filter: drop-shadow(0px 0px 3px #00ADB5);
-        margin: 20px;
     }
     .hero div h2{
         margin: 20px 20px 20px 20px;
@@ -912,9 +910,6 @@ iframe{
     }
 }
 @media screen and (max-width: 1030px){
-    .hero img{
-        margin: 5px 20px;
-    }
     .redes h2{
         font-size: 26px;
         letter-spacing: 2px;
@@ -946,11 +941,15 @@ iframe{
 }
 @media screen and (max-width: 1000px){
     header p{
+        margin-right: 10px;
         padding: 8px;
         font-size: 14px;
     }
     .logoh img{
         margin-bottom: 10px;
+    }
+    .nav{
+        padding: 0 10px;
     }
     .navli{
         font-size: 20px;
@@ -977,25 +976,31 @@ iframe{
         font-size: 29px;
         margin: 0 10px;
     }
+    .hero div p{
+        margin: 0 10px;
+    }
+    .hero img{
+        margin: 0 10px;
+    }
     .nempresa1 img{
-        margin: 0 20px 10px 10px
+        margin: 0 10px;
     }
     .nempresa1 div h2{
         font-size: 29px;
-        margin: 0 10px 0 20px;
+        margin: 0 10px;
     }
     .nempresa1 div p{
-        margin: 0 10px 0 20px;
+        margin: 0 10px;
     }
     .nempresa2 img{
-        margin: 10px 10px 0 20px;
+        margin: 5px 10px 0 10px;
     }
     .nempresa2 div h2{
         font-size: 29px;
-        margin: 0 20px 0 10px;
+        margin: 0 10px;
     }
     .nempresa2 div p{
-        margin: 0 20px 0 10px;
+        margin: 0 10px;
     }
     .confian h2{
         margin: 10px 0 0 0;
@@ -1007,6 +1012,9 @@ iframe{
     }
     .owl-carousel .owl-item img{
         width: 250px;
+    }
+    .no-js .owl-carousel, .owl-carousel.owl-loaded{
+        width: 98%;
     }
     .producto{
         width: 90%;
@@ -1041,6 +1049,15 @@ iframe{
         justify-content: start;
         align-items: start;
     }
+    .atencion{
+        margin: 0 10px 10px 0;
+    }
+    .redes{
+        margin: 0 0 10px 10px;
+    }
+    footer iframe{
+        padding: 0 10px;
+    }
 }
 
 @media screen and (max-width: 910px){
@@ -1060,6 +1077,9 @@ iframe{
         letter-spacing: 0.7px;
         line-height: 35px;
     }
+    .no-js .owl-carousel, .owl-carousel.owl-loaded{
+        width: 95%;
+    }
     .filtrar ul{
         padding: 5px;
         margin: 7px;
@@ -1070,6 +1090,9 @@ iframe{
     }
 }
 @media screen and (max-width:890px){
+    .nav{
+        padding: 0 10px;
+    }
     .redes h2{
         font-size: 26px;
         letter-spacing: 1px;
@@ -1116,7 +1139,7 @@ iframe{
         grid-template-columns: 0.5fr 0.5fr;
         gap: 10px;
         margin: 0 20px 10px 20px;
-}
+    }
 }
 @media screen and (max-width: 840px){
     .logoh{
@@ -1128,17 +1151,7 @@ iframe{
         margin-bottom: 10px;
     }
     .hero img{
-        width: 40%;
-        margin: 5px 5px 5px 20px;
-    }
-    .hero div{
-        width: 60%;
-    }
-    .hero div h2{
-        margin:5px;
-    }
-    .hero div p{
-        margin: 0 20px 0 5px
+        width: 45%;
     }
     .nempresa1{
         flex-direction: column;
@@ -1154,10 +1167,10 @@ iframe{
         margin: 5px 0;
     }
     .nempresa1 div h2{
-        margin: 0 20px;
+        margin: 0 10px;
     }
     .nempresa1 div p{
-        margin: 0 20px;
+        margin: 0 10px;
     }
     .nempresa2{
         flex-direction: column;
@@ -1170,13 +1183,6 @@ iframe{
     }
     .nempresa2 div{
         width: 100%;
-        margin: 0 20px 20px 20px;
-    }
-    .nempresa2 div h2{
-        margin: 0 20px;
-    }
-    .nempresa2 div p{
-        margin: 0 20px;
     }
     .owl-carousel .owl-item img{
         width: 200px;
@@ -1189,11 +1195,11 @@ iframe{
     }
     .redes{
         width: 50%;
-        margin: 0 5px 10px 20px;
+        margin: 0 5px 10px 10px;
     }
     .atencion{
         width: 50%;
-        margin: 0 20px 10px 5px;
+        margin: 0 10px 10px 5px;
     }
 }
 @media screen and (max-width: 793px){
@@ -1243,7 +1249,7 @@ iframe{
     .logoh img{
         height: 80px;
         width: 60px;
-        margin: 3px;
+        margin: 5px;
     }
     .nav ul{
         margin-top: 5px;
@@ -1252,24 +1258,12 @@ iframe{
         flex-direction: column;
         align-items: center;
     }
-    .hero div p{
-        margin: 5px 20px;
-    }
     .hero img{
         width: 80%;
         order:1;
-        margin: 5px 20px;
     }
     .hero div{
         width: 100%;
-    }
-    .nempresa1 div h2{
-        margin: 7px;
-        padding: 0;
-    }
-    .nempresa2 div h2{
-        margin: 7px;
-        padding: 0;
     }
     .confian h2{
         padding: 0;
@@ -1285,7 +1279,7 @@ iframe{
     .footerdiv{
         flex-direction: column;
         align-items: center;
-        margin: 0 20px;
+        margin: 0 10px;
     }
     .redes{
         width: 100%;
@@ -1377,7 +1371,8 @@ iframe{
         color: #fff;
         width: 100%;
         justify-content: start;
-        padding: 0 20px;
+        padding: 0 10px;
+        margin: 5px 0;
     }
     .navegadorp div ul{
         display: flex;
