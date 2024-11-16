@@ -158,6 +158,7 @@ main h2{
     line-height: 50px;
     color: #fff;
     text-shadow: 5px 3px 0px rgba(0,0,0,1);
+    margin: 0;
 }
 main h3{
     font-family: "Agdasima", sans-serif;
@@ -274,7 +275,6 @@ main h3{
     align-items: center;
 }
 .confian h2{
-    margin: 0;
     line-height: 25px;
 }
 .confian h3{
@@ -441,7 +441,6 @@ main h3{
 .novedades h2{
     grid-area: novedades;
     text-align: center;
-    margin: 0;
 }
 .capacitaciones{
     grid-area: capacitaciones;
@@ -521,9 +520,6 @@ main h3{
 }
 
 /*PREGUNTAS FRECUENTES*/
-.preguntas-frecuentes h2{
-    margin: 0;
-}
 .preguntas-frecuentes{
     display: flex;
     width: 100%;
@@ -1043,15 +1039,15 @@ iframe{
         align-items: center;
         justify-content: center;
         width: 100%;
-        padding: 20px;
+        padding: 10px;
     }
     .formulario{
         width: 100%;
-        margin: 0 20px 5px 20px;
+        margin: 0 10px 5px 10px;
     }
     .comunicacion{
         width: 100%;
-        margin: 0 20px 5px 20px;
+        margin: 5px 10px 5px 10px;
     }
     .comunicacion p{
         padding: 0 10px 0 40px;
@@ -1225,7 +1221,7 @@ iframe{
 }
 @media screen and (max-width: 793px){
     .nuestros-productos{
-        margin: 10px;
+        margin: 10px 10px 0px 10px;
     }
     .filtrar{
         display: grid;
@@ -1293,6 +1289,9 @@ iframe{
     .producto div h3{
         font-size: 30px;
         line-height: 35px;
+    }
+    .formulario-y-comunicacion{
+        padding: 10px 10px 0px 10px;
     }
     .preguntas-frecuentes ol li p{
         font-size: 17px;
