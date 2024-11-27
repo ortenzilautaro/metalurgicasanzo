@@ -1,0 +1,98 @@
+.titulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .productos{
+        width: 100%;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: start;
+        align-items: start;
+        .nuestros-productos{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            margin: 20px;
+            align-items: center;
+            .producto{
+                height: 10%;
+                width: 70%;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                margin-bottom: 20px;
+                border: 3px solid #00ADB5;
+                background: rgba(0, 0, 0, 0.5);
+                img{
+                    height: 200px;
+                    width: 300px;
+                }
+                div{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    width: 70%;
+                    h3{
+                        line-height: 40px;
+                        text-align: center;
+                        margin: 15px;
+                        font-size: 50px;
+                        letter-spacing: 2px;
+                    }
+                    button{
+                        text-decoration: none;
+                        border: 2px solid #00ADB5;
+                        border-radius: 30px;
+                        text-align: center;
+                        margin: 20px;
+                        font-family: "PT Serif", serif;
+                        font-weight: 900;
+                        font-style: normal;
+                        font-size: 30px;
+                        letter-spacing: 4px;
+                        line-height: 50px;
+                        color: #fff;
+                        text-shadow: 5px 3px 0px rgba(0,0,0,1);
+                        width: 50%;
+                        background-color: transparent;
+                        &:hover{
+                            background-color: #00acb53d;
+                        }
+                        &:focus{
+                            color: #00ADB5;
+                        }
+                    }
+                }
+            }
+        }
+        .filtrar{
+            border: 2px dashed #00ADB5;
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            width: 500px;
+            margin: 20px 20px 0 40px;
+            padding-left: 5px;
+            background: rgba(0, 0, 0, 0.5);
+            h2{
+                text-align: center;
+                width: 100%;
+                text-decoration:underline;
+            }
+            ul{
+                color: #fff;
+                display: flex;
+                flex-direction: column;
+                li{
+                    line-height: 20px;
+                    margin: 20px;
+                    font-size: 20px;
+                    letter-spacing: 0.5px;
+                    color: #fff;
+                    text-shadow: 5px 3px 0px rgba(0,0,0,1);
+                }
+            }
+        }
+    }
+}

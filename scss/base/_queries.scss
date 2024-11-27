@@ -1,0 +1,708 @@
+@media screen and (max-width: 1430px){
+    .confian div .tarjeta img {
+        height: 250px;
+    }
+}
+@media screen and (max-width: 1265px){
+    .hero img{
+        width: 50%;
+    }
+    .hero div h2{
+        margin: 20px 20px 20px 20px;
+        text-align: center;
+        white-space: wrap;
+    }
+    main p{
+        letter-spacing: 0.7px;
+        line-height: 20px;
+    }
+    main h2{
+        letter-spacing: 0.7px;
+        line-height: 40px;
+    }
+    main h3{
+        letter-spacing: 0.7px;
+    }
+    .nempresa .nempresa1 img {
+        width: 50%;
+    }
+    .nempresa .nempresa2 img {
+        width: 50%;
+    }
+    .titulo .productos .filtrar ul {
+        padding: 5px;
+    }
+    .titulo .productos .nuestros-productos .producto{
+        width: 80%;
+    }
+    .titulo .productos .nuestros-productos .producto div button{
+        padding: 0px;
+        margin: 5px;
+        width: 250px;
+    }
+    .contactos .formulario-y-comunicacion .comunicacion p{
+        font-size: 16px;
+    }
+    .contactos .formulario-y-comunicacion .comunicacion div{
+        margin: 5px;
+    }
+    .contactos .formulario-y-comunicacion .formulario .datos .datos-area{
+        padding: 10px 20px 10px 40px;
+    }
+    footer iframe{
+        height: 400px;
+    }
+}
+@media screen and (max-width: 1094px){
+    .confian div .tarjeta img{
+        height: 200px;
+    }
+    .confian div .tarjeta h3{
+        font-size: 28px;
+    }
+    .titulo .productos .nuestros-productos .producto div h3{
+        font-size: 35px;
+        margin: 0 0 10px 0;
+    }
+    .titulo .productos .nuestros-productos .producto div button{
+        width: 200px;
+        font-size: 25px;
+    }
+    .novedades{
+    grid-template-columns: 400px 400px;
+    grid-template-rows: 40px 250px 250px 250px 250px;
+    }
+    .contactos .formulario-y-comunicacion .formulario .datos label{
+        font-size: 16px;
+    }
+    .contactos .formulario-y-comunicacion .formulario .datos input{
+        line-height: 16px;
+    }
+    .contactos .formulario-y-comunicacion .comunicacion div p span{
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 1030px){
+    footer .footerdiv .redes h2{
+        font-size: 26px;
+        letter-spacing: 2px;
+        line-height: 25px;
+        margin-top: 3px;
+    }
+    footer .footerdiv .redes p{
+        font-size: 15px;
+        letter-spacing: 2px;
+        line-height: 16px;
+    }
+    footer .footerdiv .redes .redesgrupo{
+        padding: 5px;
+    }
+    footer .footerdiv .atencion h2{
+        margin: 3px 0 5px 0;
+        font-size: 26px;
+        letter-spacing: 2px;
+        line-height: 25px;
+    }
+    footer .footerdiv .atencion p{
+        font-size: 15px;
+        letter-spacing: 1px;
+        line-height: 16px;
+    }
+    footer iframe{
+        height: 300px;
+    }
+}
+@media screen and (max-width: 1000px){
+    header p{
+        margin-right: 10px;
+        padding: 8px;
+        font-size: 14px;
+    }
+    header nav .logoh img{
+        margin-bottom: 10px;
+    }
+    header nav ul{
+        padding: 0 10px;
+    }
+    header nav ul .navli{
+        font-size: 20px;
+        letter-spacing: 2px;
+        line-height: 20px;
+        margin: 3px;
+    }
+    main p{
+        font-size: 18px;
+        letter-spacing: 1px;
+        line-height: 20px;
+    }
+    main h2{
+        font-size: 30px;
+        letter-spacing: 1px;
+        line-height: 35px;
+    }
+    main h3{
+        font-size: 30px;
+        letter-spacing: 1px;
+        line-height: 30px;
+    }
+    .hero div h2{
+        font-size: 29px;
+        margin: 0 10px;
+    }
+    .hero div p{
+        margin: 0 10px;
+    }
+    .hero img{
+        margin: 0 10px;
+    }
+    .nempresa .nempresa1 img{
+        margin: 0 10px;
+    }
+    .nempresa .nempresa1 div h2{
+        font-size: 29px;
+        margin: 0 10px;
+    }
+    .nempresa .nempresa1 div p{
+        margin: 0 10px;
+    }
+    .nempresa .nempresa2 img{
+        margin: 5px 10px 0 10px;
+    }
+    .nempresa .nempresa2 div h2{
+        font-size: 29px;
+        margin: 0 10px;
+    }
+    .nempresa .nempresa2 div p{
+        margin: 0 10px;
+    }
+    .confian h2{
+        margin: 10px 0 0 0;
+    }
+    .confian div .tarjeta{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .confian div .tarjeta img{
+        width: 250px;
+    }
+    .confian div{
+        width: 98%;
+    }
+    .titulo .productos .nuestros-productos{
+        margin: 10px;
+    }
+    .titulo .productos .nuestros-productos .producto{
+        width: 90%;
+    }
+    .titulo .productos .filtrar{
+        margin: 10px;
+    }
+    .titulo .productos .filtrar ul{
+        margin-left: 10px;
+    }
+    .titulo .productos .filtrar ul li{
+        margin: 10px;
+        font-size: 17px;
+    }
+    .accordion{
+        padding: 10px
+    }
+    .contactos .formulario-y-comunicacion{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        padding: 10px;
+    }
+    .contactos .formulario-y-comunicacion .formulario{
+        width: 100%;
+        margin: 0 10px 5px 10px;
+    }
+    .contactos .formulario-y-comunicacion .comunicacion{
+        width: 100%;
+        margin: 5px 10px 5px 10px;
+    }
+    .contactos .formulario-y-comunicacion .comunicacion div{
+        width: 100%;
+        justify-content: start;
+        align-items: start;
+    }
+    .contactos .formulario-y-comunicacion .comunicacion div p{
+        padding: 0 10px 0 40px;
+    }
+    .contactos .formulario-y-comunicacion .formulario .datos .datos-area{
+        padding: 10px 10px 10px 40px;
+    }
+    footer .footerdiv .atencion{
+        margin: 0 10px 10px 0;
+    }
+    footer .footerdiv .redes{
+        margin: 0 0 10px 10px;
+    }
+    footer iframe{
+        padding: 0 10px;
+    }
+}
+@media screen and (max-width: 910px){
+    main p{
+        font-size: 18px;
+        letter-spacing: 0.7px;
+        line-height: 18px;
+    }
+    main h2{
+        font-size: 33px;
+        letter-spacing: 0.7px;
+        line-height: 35px;
+    }
+    .titulo .productos .filtrar ul{
+        padding: 5px;
+        margin: 7px;
+    }
+    .titulo .productos .filtrar ul li{
+        margin: 5px;
+        font-size: 15px;
+    }
+}
+@media screen and (max-width:890px){
+    header nav .logoh{
+        height: 100px;
+    }
+    header nav .logoh img{
+        height: 100px;
+        width: 80px;
+        margin-bottom: 10px;
+    }
+    footer .footerdiv .redes h2{
+        font-size: 26px;
+        letter-spacing: 1px;
+        line-height: 25px;
+    }
+    footer .footerdiv .redes p{
+        font-size: 15px;
+        letter-spacing: 1px;
+        line-height: 16px;
+    }
+    footer .footerdiv .atencion h2{
+        font-size: 26px;
+        letter-spacing: 1px;
+        line-height: 25px;
+    }
+    footer .footerdiv .atencion p{
+        font-size: 15px;
+        letter-spacing: 0.5px;
+        line-height: 16px;
+    }
+    .titulo .productos{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .titulo .productos .filtrar{
+        width: 97%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .titulo .productos .filtrar ul{
+        flex-direction: row;
+        justify-content: center;
+    }
+    .titulo .productos .filtrar ul li{
+        font-size: 15px;
+        list-style:none;
+    }
+    .titulo .productos .nuestros-productos{
+        width: 97%;
+        margin: 0px;
+    }
+    .titulo .productos .nuestros-productos .producto{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .novedades{
+        grid-template-columns: 0.5fr 0.5fr;
+        gap: 10px;
+        margin: 0 10px 10px 10px;
+    }
+}
+@media screen and (max-width: 840px){
+    .hero img{
+        width: 45%;
+    }
+    .nempresa .nempresa1{
+        flex-direction: column;
+        align-items: center;
+    }
+    .nempresa .nempresa1 img{
+        order: 1;
+        width: 80%;
+        margin: 0 5px;
+    }
+    .nempresa .nempresa1 div{
+        width: 100%;
+        margin: 5px 0;
+    }
+    .nempresa .nempresa1 div h2{
+        margin: 0 10px;
+    }
+    .nempresa .nempresa1 div p{
+        margin: 0 10px;
+    }
+    .nempresa .nempresa2{
+        flex-direction: column;
+        align-items: center;
+    }
+    .nempresa .nempresa2 img{
+        order: 1;
+        width: 80%;
+        margin: 0 5px;
+    }
+    .nempresa .nempresa2 div{
+        width: 100%;
+    }
+    .confian div .tarjeta img{
+        width: 200px;
+    }
+    .titulo .productos .filtrar ul li{
+        font-size: 14px;
+    }
+    footer .footerdiv .logof{
+        display: none;
+    }
+    footer .footerdiv .redes{
+        width: 50%;
+        margin: 0 5px 10px 10px;
+    }
+    footer .footerdiv .atencion{
+        width: 50%;
+        margin: 0 10px 10px 5px;
+    }
+}
+@media screen and (max-width: 793px){
+    .titulo .productos .nuestros-productos{
+        margin: 10px 10px 0px 10px;
+    }
+    .titulo .productos .filtrar{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto;
+        align-items: start;
+        justify-items: start;
+        margin: 10px;
+    }
+    .titulo .productos .filtrar h2{
+        grid-column: 1/2;
+        margin: 7px;
+        padding: 5px;
+    }
+    .titulo .productos .filtrar ul{
+        width: 100%;
+        grid-column: 2/4;
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-template-rows: auto;
+    }
+    .contactos .formulario-y-comunicacion .formulario h3{
+        font-size: 25px;
+        letter-spacing: 1px;
+    }
+    .contactos .formulario-y-comunicacion .comunicacion h3{
+        font-size: 25px;
+        letter-spacing: 1px;
+    }
+}
+@media screen and (max-width: 715px){
+    header p span{
+        display: none;
+    }
+    header nav .logoh{
+        height: 80px;
+    }
+    header nav .logoh img{
+        height: 80px;
+        width: 60px;
+        margin: 5px;
+    }
+    header nav ul{
+        margin-top: 5px;
+    }
+    header nav ul li a{
+        font-size: 15px;
+    }
+    .hero{
+        flex-direction: column;
+        align-items: center;
+    }
+    .hero img{
+        width: 80%;
+        order:1;
+    }
+    .hero div{
+        width: 100%;
+    }
+    .confian h2{
+        padding: 0;
+    }
+    .titulo .productos .nuestros-productos .producto div h3{
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .contactos .formulario-y-comunicacion{
+        padding: 10px 10px 0px 10px;
+    }
+    footer .footerdiv{
+        flex-direction: column;
+        align-items: center;
+        margin: 0 10px;
+    }
+    footer .footerdiv .redes{
+        width: 100%;
+        margin: 5px;
+        height: 200px;
+        padding: 5px;
+    }
+    footer .footerdiv .redes h2{
+        margin: 5px
+    }
+    footer .footerdiv .redes .redesgrupo{
+        padding: 0;
+    }
+    footer .footerdiv .atencion{
+        width: 100%;
+        height: 200px;
+        margin: 5px;
+        padding: 5px;
+    }
+    footer iframe{
+        height: 200px;
+    }
+}
+@media screen and (max-width: 660px){
+    .novedades{
+        grid-template-columns: 0.9fr;
+        grid-template-rows: 30px 300px 300px 300px 300px;
+        grid-template-areas:
+        "novedades"
+        "capacitaciones"
+        "maquinaria"
+        "incorporaciones"
+        "certificado";
+    }
+}
+@media screen and (max-width: 590px){
+    header nav ul li a{
+        font-size: 13px;
+        letter-spacing: 1px;
+        line-height: 15px;
+    }
+    .novedades{
+        grid-template-columns: 1fr;
+        grid-template-rows: 30px 275px 275px 275px 275px;
+    }
+}
+@media screen and (max-width: 490px){
+    header p{
+        display: none;
+    }
+    header>a{
+        display: flex;
+        justify-content: end;
+        align-items: start;
+    }
+    header>a img{
+        margin: 15px 5px 0 0;
+    }
+    header nav .navegadorp a{
+        padding: 0 5px;
+    }
+    header nav ul .navli{
+        display: none;
+    }
+    header nav .navegadorp{
+        display: flex;
+        color: #fff;
+        width: 100%;
+        justify-content: start;
+        padding: 0 10px;
+        margin: 5px 0;
+    }
+    header nav .navegadorp div ul{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    header nav{
+        padding: 0;
+    }
+    .menu{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+    }
+    .menu img{
+        width: 40px;
+        height: 40px;
+        margin: 0 10px 0 10px;
+        filter: drop-shadow(0px 0px 3px #00ADB5);
+    }
+    .navbar-brand{
+        font-family: "Agdasima", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 35px;
+        letter-spacing: 1px;
+        line-height: 35px;
+        color: #fff;
+        text-shadow: 5px 3px 0px rgba(0,0,0,1);
+    }
+    .nempresa .nempresa1 img{
+        height: 250px;
+    }
+    .nempresa .nempresa2 img{
+        height: 250px;
+    }
+    .titulo .productos .nuestros-productos .producto div button{
+        width: 90%;
+        font-size: 20px;
+    }
+    .confian h2{
+        font-size: 29px;
+    }
+    .titulo .productos .filtrar{
+        display: flex;
+        flex-direction: row;
+        align-items: start;
+        justify-content: start;
+        padding: 0;
+    }
+    .titulo .productos .filtrar h2{
+        width: 70%;
+        font-size: 28px;
+        margin: 0 7px;
+        padding: 1px;
+    }
+    .titulo .productos .filtrar ul{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        padding: 1px;
+    }
+    .titulo .productos .filtrar ul li{
+        margin: 5px;
+    }
+    .novedades a h3{
+        font-size: 22px;
+    }
+    .contactos .formulario-y-comunicacion .formulario .datos{
+        padding: 10px 0px;
+    }
+    .contactos .formulario-y-comunicacion .formulario .datos input{
+        width: 100px;
+    }
+    .contactos .formulario-y-comunicacion .formulario .datos label{
+        font-size: 14px;
+        margin-left: 5px;
+    }
+    .contactos .formulario-y-comunicacion .formulario .datos .datos-area{
+        padding: 0 5px 0 5px;
+    }
+    .contactos .formulario-y-comunicacion .comunicacion div p span{
+        font-size: 16px;
+    }
+    .contactos .formulario-y-comunicacion .comunicacion div p{
+        font-size: 14px;
+        padding: 0 10px 0 10px;
+    }
+    .contactos .formulario-y-comunicacion .comunicacion div{
+        margin:5px;
+    }
+}
+@media screen and (max-width: 407px){
+    .titulo .productos .nuestros-productos .producto img{
+        width: 150px;
+        height: 150px;
+    }
+    .titulo .productos .nuestros-productos .producto div button{
+        width: 60%;
+        font-size: 15px;
+        line-height: 30px;
+        letter-spacing: 1px;
+    }
+}
+@media screen and (max-width: 401px){
+    .confian h2{
+        margin: 0 20px;
+        text-align: center;
+    }
+    .contactos .formulario-y-comunicacion div p span{
+        font-size: 14px;
+    }
+    .contactos .formulario-y-comunicacion div p{
+        font-size: 13px;
+    }
+}
+@media screen and (max-width:380px){
+    header h1{
+        font-size: 27px;
+    }
+    header nav .navegadorp a{
+        padding: 0;
+    }
+    .nempresa .nempresa1 img{
+        width: 90%;
+    }
+    .nempresa .nempresa2 img{
+        width: 90%;
+    }
+    .titulo .productos .nuestros-productos{
+        margin: 0px;
+    }
+    .titulo .productos .nuestros-productos .producto div h3{
+        font-size: 23px;
+    }
+    .titulo .productos .filtrar h2{
+        font-size: 23px ;
+    }
+    .titulo .productos .filtrar ul li{
+        margin: 2px 5px;
+    }
+    .titulo .productos .filtrar ul li label{
+        font-size: 11px;
+    }
+    .contactos .formulario-y-comunicacion .comunicacion{
+        display: none;
+    }
+    .novedades{
+        grid-template-columns: 1fr;
+        grid-template-rows: 30px 215px 215px 215px 215px;
+    }
+    footer .footerdiv .redes h2{
+        font-size: 22px;
+        letter-spacing: 1px;
+        line-height: 25px;
+    }
+    footer .footerdiv .redes p{
+        font-size: 15px;
+        letter-spacing: 0.7px;
+        line-height: 16px;
+    }
+    footer .footerdiv .atencion h2{
+        font-size: 22px;
+        letter-spacing: 1px;
+        line-height: 25px;
+    }
+    footer .footerdiv .atencion p{
+        font-size: 13px;
+        letter-spacing: 0px;
+        line-height: 16px;
+        white-space: nowrap;
+    }
+    .atencion p span{
+        font-size: 14px;
+    }
+}
