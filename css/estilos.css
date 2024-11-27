@@ -1,5 +1,32 @@
 /*1 VARIABLE 1 LISTA 1 EXTEND Y 1 MIXIN*/
 @import url("https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap");
+.titulo .productos .nuestros-productos .producto div button, header nav .navegadorp div ul .nav-item a, header nav ul .navli a, .nempresa .nempresa2 img, .nempresa .nempresa1 img {
+  border: 2px solid rgb(47, 200, 238);
+  border-radius: 30px;
+}
+
+.nempresa .nempresa2 img, .nempresa .nempresa1 img {
+  height: 400px;
+  width: 600px;
+  padding: 15px;
+}
+
+.novedades .certificado img, .novedades .incorporaciones img, .novedades .maquinaria img {
+  width: 100%;
+  height: 100%;
+}
+
+.novedades .certificado h3, .novedades .incorporaciones h3, .novedades .maquinaria h3 {
+  position: absolute;
+  color: white;
+  font-size: 1.5em;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -166,10 +193,11 @@ footer p {
 }
 
 header {
-  display: flex;
   width: 100%;
-  flex-direction: column;
+  display: flex;
   justify-content: center;
+  align-items: normal;
+  flex-direction: column;
 }
 header p {
   color: #fff;
@@ -192,15 +220,16 @@ header h1 {
   font-weight: 800;
   font-style: normal;
   font-size: 32px;
-  color: #00ADB5;
+  color: rgb(47, 200, 238);
   margin: 5px;
   text-shadow: 5px 3px 0px rgb(0, 0, 0);
 }
 header > a {
+  margin-right: 30px;
   display: flex;
   justify-content: end;
-  margin-right: 30px;
   align-items: center;
+  flex-direction: row;
 }
 header > a img {
   height: 30px;
@@ -210,8 +239,9 @@ header > a img {
 header nav {
   width: 100%;
   display: flex;
-  flex-direction: column;
+  justify-content: normal;
   align-items: center;
+  flex-direction: column;
 }
 header nav .logoh {
   height: 150px;
@@ -220,12 +250,13 @@ header nav .logoh img {
   height: 150px;
   width: 100px;
   margin-bottom: 5px;
-  filter: drop-shadow(0px 0px 3px #00ADB5);
+  filter: drop-shadow(0px 0px 3px #fff);
 }
 header nav ul {
   display: flex;
-  flex-direction: row;
   justify-content: center;
+  align-items: normal;
+  flex-direction: row;
   width: 100%;
   padding: 0 20px;
   margin: 0px;
@@ -249,8 +280,6 @@ header nav ul .navli a {
   text-decoration: none;
   color: #fff;
   width: 100%;
-  border: 2px solid #00ADB5;
-  border-radius: 30px;
   padding: 10px;
   height: max-content;
   text-shadow: 5px 3px 0px rgb(0, 0, 0);
@@ -259,7 +288,7 @@ header nav ul .navli a:hover {
   background-color: rgba(0, 172, 181, 0.2392156863);
 }
 header nav ul .navli a:focus {
-  color: #00ADB5;
+  color: rgb(47, 200, 238);
 }
 header nav .navegadorp {
   display: none;
@@ -268,8 +297,6 @@ header nav .navegadorp div ul {
   padding: 0;
 }
 header nav .navegadorp div ul .nav-item a {
-  border: 2px solid #00ADB5;
-  border-radius: 30px;
   margin-bottom: 3px;
   padding: 5px;
 }
@@ -278,11 +305,13 @@ header nav .navegadorp div ul .nav-item a:hover {
   border-radius: 30px;
 }
 header nav .navegadorp div ul .nav-item a:focus {
-  color: #00ADB5;
+  color: rgb(47, 200, 238);
 }
 
 .hero {
   display: flex;
+  justify-content: normal;
+  align-items: normal;
   flex-direction: row;
 }
 .hero img {
@@ -293,12 +322,12 @@ header nav .navegadorp div ul .nav-item a:focus {
 .hero div {
   width: 50%;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 .hero div h2 {
-  margin: 20px 20px 20px 20px;
+  margin: 20px;
   text-align: center;
   white-space: nowrap;
 }
@@ -310,29 +339,24 @@ header nav .navegadorp div ul .nav-item a:focus {
 
 .nempresa {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 .nempresa .nempresa1 {
   display: flex;
-  flex-direction: row-reverse;
   justify-content: center;
   align-items: center;
+  flex-direction: row-reverse;
 }
 .nempresa .nempresa1 img {
-  height: 400px;
-  width: 600px;
-  border: 2px solid #00ADB5;
-  border-radius: 30px;
   margin: 10px 20px;
-  padding: 15px;
 }
 .nempresa .nempresa1 div {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
   width: 50%;
 }
 .nempresa .nempresa1 div h2 {
@@ -347,15 +371,11 @@ header nav .navegadorp div ul .nav-item a:focus {
 }
 .nempresa .nempresa2 {
   display: flex;
-  flex-direction: row;
   justify-content: center;
+  align-items: normal;
+  flex-direction: row;
 }
 .nempresa .nempresa2 img {
-  height: 400px;
-  width: 600px;
-  border: 2px solid #00ADB5;
-  border-radius: 30px;
-  padding: 15px;
   margin: 10px 20px;
 }
 .nempresa .nempresa2 div {
@@ -378,22 +398,22 @@ header nav .navegadorp div ul .nav-item a:focus {
 
 .confian {
   display: flex;
-  flex-direction: column;
+  justify-content: normal;
   align-items: center;
+  flex-direction: column;
 }
 .confian h2 {
   line-height: 25px;
 }
 .confian div .tarjeta {
-  background: linear-gradient(to top, transparent, #00ADB5);
+  background: linear-gradient(to top, transparent, rgb(47, 200, 238));
   border-radius: 30px;
-  border-bottom: 6px solid #00ADB5;
+  border-bottom: 6px solid rgb(47, 200, 238);
   margin-top: 20px;
 }
 .confian div .tarjeta img {
   width: 100%;
   height: 300px;
-  border-radius: 30px;
 }
 .confian div .tarjeta h3 {
   width: 100%;
@@ -402,32 +422,34 @@ header nav .navegadorp div ul .nav-item a:focus {
 
 .titulo {
   display: flex;
-  flex-direction: column;
+  justify-content: normal;
   align-items: center;
+  flex-direction: column;
 }
 .titulo .productos {
-  width: 100%;
   display: flex;
-  flex-direction: row-reverse;
   justify-content: start;
   align-items: start;
+  flex-direction: row-reverse;
+  width: 100%;
 }
 .titulo .productos .nuestros-productos {
-  width: 100%;
   display: flex;
-  flex-direction: column;
-  margin: 20px;
+  justify-content: normal;
   align-items: center;
+  flex-direction: column;
+  width: 100%;
+  margin: 20px;
 }
 .titulo .productos .nuestros-productos .producto {
-  height: 10%;
-  width: 70%;
   display: flex;
-  flex-direction: row;
   justify-content: center;
   align-items: center;
+  flex-direction: row;
+  height: 10%;
+  width: 70%;
   margin-bottom: 20px;
-  border: 3px solid #00ADB5;
+  border: 3px solid rgb(47, 200, 238);
   background: rgba(0, 0, 0, 0.5);
 }
 .titulo .productos .nuestros-productos .producto img {
@@ -436,8 +458,9 @@ header nav .navegadorp div ul .nav-item a:focus {
 }
 .titulo .productos .nuestros-productos .producto div {
   display: flex;
-  flex-direction: column;
+  justify-content: normal;
   align-items: center;
+  flex-direction: column;
   width: 70%;
 }
 .titulo .productos .nuestros-productos .producto div h3 {
@@ -449,8 +472,6 @@ header nav .navegadorp div ul .nav-item a:focus {
 }
 .titulo .productos .nuestros-productos .producto div button {
   text-decoration: none;
-  border: 2px solid #00ADB5;
-  border-radius: 30px;
   text-align: center;
   margin: 20px;
   font-family: "PT Serif", serif;
@@ -468,13 +489,14 @@ header nav .navegadorp div ul .nav-item a:focus {
   background-color: rgba(0, 172, 181, 0.2392156863);
 }
 .titulo .productos .nuestros-productos .producto div button:focus {
-  color: #00ADB5;
+  color: rgb(47, 200, 238);
 }
 .titulo .productos .filtrar {
-  border: 2px dashed #00ADB5;
   display: flex;
-  flex-direction: column;
+  justify-content: normal;
   align-items: start;
+  flex-direction: column;
+  border: 2px dashed rgb(47, 200, 238);
   width: 500px;
   margin: 20px 20px 0 40px;
   padding-left: 5px;
@@ -486,9 +508,11 @@ header nav .navegadorp div ul .nav-item a:focus {
   text-decoration: underline;
 }
 .titulo .productos .filtrar ul {
-  color: #fff;
   display: flex;
+  justify-content: normal;
+  align-items: normal;
   flex-direction: column;
+  color: #fff;
 }
 .titulo .productos .filtrar ul li {
   line-height: 20px;
@@ -514,7 +538,7 @@ header nav .navegadorp div ul .nav-item a:focus {
 }
 .novedades .capacitaciones {
   grid-area: capacitaciones;
-  border: 1px solid #00ADB5;
+  border: 1px solid rgb(47, 200, 238);
   position: relative;
 }
 .novedades .capacitaciones img {
@@ -523,7 +547,7 @@ header nav .navegadorp div ul .nav-item a:focus {
 }
 .novedades .capacitaciones h3 {
   position: absolute;
-  color: white;
+  color: #fff;
   font-size: 1.5em;
   text-align: center;
   background: rgba(0, 0, 0, 0.5);
@@ -533,74 +557,33 @@ header nav .navegadorp div ul .nav-item a:focus {
 }
 .novedades .maquinaria {
   grid-area: maquinaria;
-  border: 1px solid #00ADB5;
+  border: 1px solid rgb(47, 200, 238);
   position: relative;
-}
-.novedades .maquinaria img {
-  width: 100%;
-  height: 100%;
-}
-.novedades .maquinaria h3 {
-  position: absolute;
-  color: white;
-  font-size: 1.5em;
-  text-align: center;
-  background: rgba(0, 0, 0, 0.5);
-  padding: 10px;
-  text-align: center;
-  width: 100%;
 }
 .novedades .incorporaciones {
   grid-area: incorporaciones;
-  border: 1px solid #00ADB5;
+  border: 1px solid rgb(47, 200, 238);
   position: relative;
-}
-.novedades .incorporaciones img {
-  width: 100%;
-  height: 100%;
-}
-.novedades .incorporaciones h3 {
-  position: absolute;
-  color: white;
-  font-size: 1.5em;
-  text-align: center;
-  background: rgba(0, 0, 0, 0.5);
-  padding: 10px;
-  text-align: center;
-  width: 100%;
 }
 .novedades .certificado {
   grid-area: certificado;
-  border: 1px solid #00ADB5;
+  border: 1px solid rgb(47, 200, 238);
   position: relative;
 }
-.novedades .certificado img {
-  width: 100%;
-  height: 100%;
-}
-.novedades .certificado h3 {
-  position: absolute;
-  color: white;
-  font-size: 1.5em;
-  text-align: center;
-  background: rgba(0, 0, 0, 0.5);
-  padding: 10px;
-  text-align: center;
-  width: 100%;
-}
-
 .preguntas-frecuentes {
   display: flex;
-  width: 100%;
-  flex-direction: column;
+  justify-content: normal;
   align-items: center;
+  flex-direction: column;
+  width: 100%;
 }
 
 .contactos {
-  width: 100%;
   display: flex;
-  flex-direction: column;
+  justify-content: normal;
   align-items: center;
+  flex-direction: column;
+  width: 100%;
 }
 .contactos .formulario-y-comunicacion {
   display: flex;
@@ -608,13 +591,14 @@ header nav .navegadorp div ul .nav-item a:focus {
   width: 100%;
 }
 .contactos .formulario-y-comunicacion .formulario {
+  display: flex;
+  justify-content: normal;
+  align-items: start;
+  flex-direction: column;
   margin: 10px 5px 10px 20px;
   width: 50%;
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-  border: 10px solid #00ADB5;
-  background-color: rgba(0, 173, 181, 0.2);
+  border: 10px solid rgb(47, 200, 238);
+  background-color: rgba(0, 172, 181, 0.2392156863);
 }
 .contactos .formulario-y-comunicacion .formulario h3 {
   text-align: center;
@@ -647,6 +631,8 @@ header nav .navegadorp div ul .nav-item a:focus {
 }
 .contactos .formulario-y-comunicacion .formulario .datos .tipo-de-empresa {
   display: flex;
+  justify-content: normal;
+  align-items: normal;
   flex-direction: row;
 }
 .contactos .formulario-y-comunicacion .formulario .datos .tipo-de-empresa select {
@@ -655,9 +641,10 @@ header nav .navegadorp div ul .nav-item a:focus {
 }
 .contactos .formulario-y-comunicacion .formulario .datos .datos-area {
   display: flex;
-  width: 100%;
-  flex-direction: column;
+  justify-content: normal;
   align-items: end;
+  flex-direction: column;
+  width: 100%;
   padding: 10px 40px;
 }
 .contactos .formulario-y-comunicacion .formulario .datos .datos-area textarea {
@@ -669,12 +656,13 @@ header nav .navegadorp div ul .nav-item a:focus {
   width: 20%;
 }
 .contactos .formulario-y-comunicacion .comunicacion {
-  width: 50%;
   display: flex;
-  flex-direction: column;
+  justify-content: normal;
   align-items: center;
-  border: 10px solid #00ADB5;
-  background-color: rgba(0, 173, 181, 0.2);
+  flex-direction: column;
+  width: 50%;
+  border: 10px solid rgb(47, 200, 238);
+  background-color: rgba(0, 172, 181, 0.2392156863);
   margin: 10px 20px 10px 5px;
 }
 .contactos .formulario-y-comunicacion .comunicacion h3 {
@@ -689,9 +677,9 @@ header nav .navegadorp div ul .nav-item a:focus {
 }
 .contactos .formulario-y-comunicacion .comunicacion div {
   display: flex;
-  flex-direction: column;
-  align-items: start;
   justify-content: center;
+  align-items: start;
+  flex-direction: column;
   margin: 20px;
 }
 .contactos .formulario-y-comunicacion .comunicacion div p {
@@ -712,38 +700,42 @@ header nav .navegadorp div ul .nav-item a:focus {
 
 footer {
   display: flex;
+  justify-content: normal;
+  align-items: normal;
   flex-direction: column;
 }
 footer .footerdiv {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
+  align-items: normal;
+  flex-direction: row;
 }
 footer .footerdiv .redes {
-  width: 40%;
   display: flex;
-  flex-direction: column;
+  justify-content: normal;
   align-items: center;
+  flex-direction: column;
+  width: 40%;
   margin: 0 0 10px 20px;
   text-shadow: 3px 2px 0px rgb(0, 0, 0);
   background-color: rgba(0, 172, 181, 0.2392156863);
-  border: 5px solid #00ADB5;
+  border: 5px solid rgb(47, 200, 238);
 }
 footer .footerdiv .redes .redesgrupo {
-  width: 100%;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+  width: 100%;
   padding: 15px;
 }
 footer .footerdiv .redes .redesgrupo div {
-  width: 100%;
-  flex-direction: row;
-  justify-content: center;
-  margin: 5px;
   display: flex;
+  justify-content: center;
   align-items: center;
+  flex-direction: row;
+  width: 100%;
+  margin: 5px;
 }
 footer .footerdiv .redes .redesgrupo div a {
   width: 40px;
@@ -763,20 +755,21 @@ footer .footerdiv .logof {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: normal;
 }
 footer .footerdiv .logof a img {
   height: 150px;
   width: 100px;
 }
 footer .footerdiv .atencion {
-  width: 40%;
   display: flex;
-  flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  flex-direction: column;
+  width: 40%;
   background-color: rgba(0, 172, 181, 0.2392156863);
   text-shadow: 3px 2px 0px rgb(0, 0, 0);
-  border: 5px solid #00ADB5;
+  border: 5px solid rgb(47, 200, 238);
   margin: 0 20px 10px 0;
 }
 footer .footerdiv .atencion p {

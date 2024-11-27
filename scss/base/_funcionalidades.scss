@@ -2,7 +2,7 @@
 $colores: #fff, rgb(47, 200, 238), rgba(0, 172, 181, 0.2392156863), rgba(0, 0, 0, 0.5);
 
 %bordes{
-    border: 2px solid #00ADB5;
+    border: 2px solid nth($colores, 2 );
     border-radius: 30px;
 }
 

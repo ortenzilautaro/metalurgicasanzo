@@ -1,37 +1,26 @@
 footer {
-    display: flex;
-    flex-direction: column;
+    @include flex(flex, normal, normal, column);
 
     .footerdiv {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
+        @include flex (flex, space-between, normal, row);
 
         .redes {
+            @include flex(flex, normal, center, column);
             width: 40%;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
             margin: 0 0 10px 20px;
             text-shadow: 3px 2px 0px rgba(0, 0, 0, 1);
-            background-color: #00acb53d;
-            border: 5px solid #00ADB5;
+            background-color: nth($colores, 3);
+            border: 5px solid nth($colores, 2);
 
             .redesgrupo {
+                @include flex (flex, center, center, column);
                 width: 100%;
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
                 padding: 15px;
 
                 div {
+                    @include flex (flex, center, center, row);
                     width: 100%;
-                    flex-direction: row;
-                    justify-content: center;
                     margin: 5px;
-                    display: flex;
-                    align-items: center;
 
                     a {
                         width: 40px;
@@ -43,7 +32,8 @@ footer {
                             margin: 0 0 0 10px;
                         }
                     }
-                    p{
+
+                    p {
                         margin: 0 0 0 20px;
                         font-size: 20px;
                         line-height: 30px;
@@ -52,36 +42,34 @@ footer {
             }
         }
 
-    .logof {
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        .logof {
+            @include flex(flex, center, center, normal);
 
-        a {
-            img {
-                height: 150px;
-                width: 100px;
+            a {
+                img {
+                    height: 150px;
+                    width: 100px;
+                }
+            }
+        }
+
+        .atencion {
+            @include flex(flex, space-around, center, column);
+            width: 40%;
+            background-color: nth($colores, 3 );
+            text-shadow: 3px 2px 0px rgba(0, 0, 0, 1);
+            border: 5px solid nth($colores, 2);
+            margin: 0 20px 10px 0;
+
+            p {
+                margin: 0 0 16px 0;
+                font-size: 16px;
+                line-height: 16px;
             }
         }
     }
-    .atencion{
-        width: 40%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
-        background-color: #00acb53d;
-        text-shadow: 3px 2px 0px rgba(0,0,0,1);
-        border: 5px solid #00ADB5;
-        margin: 0 20px 10px 0;
-        p{
-            margin: 0 0 16px 0;
-            font-size: 16px;
-            line-height: 16px;
-        }
-    }
-}
-    iframe{
+
+    iframe {
         width: 100%;
         padding: 0 20px;
     }

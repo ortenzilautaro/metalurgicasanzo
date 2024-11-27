@@ -1,6 +1,4 @@
 .preguntas-frecuentes{
-    display: flex;
+    @include flex(flex, normal, center, column);
     width: 100%;
-    flex-direction: column;
-    align-items: center;
 }

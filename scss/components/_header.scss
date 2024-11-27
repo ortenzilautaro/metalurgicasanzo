@@ -1,10 +1,8 @@
 header{
-    display: flex;
     width: 100%;
-    flex-direction: column;
-    justify-content: center;
+    @include flex (flex, center, normal, column);
     p{
-        color: #fff;
+        color: nth($colores, 1);
         padding: 10px 0;
         font-family: "PT Serif", serif;
         font-weight: 400;
@@ -24,15 +22,13 @@ header{
         font-weight: 800;
         font-style: normal;
         font-size: 32px;
-        color: #00ADB5;
+        color: nth($colores, 2);
         margin: 5px;
         text-shadow: 5px 3px 0px rgba(0,0,0,1);
     }
     >a{
-        display: flex;
-        justify-content: end;
         margin-right: 30px;
-        align-items: center;
+        @include flex (flex, end, center,row);
         img{
             height: 30px;
             width: 30px;
@@ -41,22 +37,18 @@ header{
     }
     nav{
         width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        @include flex (flex, normal, center, column);
         .logoh{
             height: 150px;
             img{
                 height: 150px;
                 width: 100px;
                 margin-bottom: 5px;
-                filter: drop-shadow(0px 0px 3px #00ADB5);
+                filter: drop-shadow(0px 0px 3px nth($colores, 1));
             }
         }
         ul{
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
+            @include flex(flex, center, normal, row);
             width: 100%;
             padding: 0 20px;
             margin: 0px;
@@ -69,25 +61,24 @@ header{
                 font-size: 25px;
                 letter-spacing: 4px;
                 line-height: 40px;
-                color: #fff;
+                color: nth($colores , 1 );
                 margin: 5px;
                 width: 100%;
                 white-space: nowrap;
                 a{
                     display: block;
                     text-decoration: none;
-                    color: #fff;
+                    color: nth($colores , 1 );
                     width: 100%;
-                    border: 2px solid #00ADB5;
-                    border-radius: 30px;
+                    @extend %bordes;
                     padding: 10px;
                     height: max-content;
                     text-shadow: 5px 3px 0px rgba(0,0,0,1);
                     &:hover{
-                        background-color: #00acb53d;
+                        background-color: nth($colores , 3);
                     }
                     &:focus{
-                        color: #00ADB5;
+                        color: nth($colores , 2);
                     }
                 }
             }
@@ -99,16 +90,15 @@ header{
                     padding: 0;
                     .nav-item{
                         a{
-                            border: 2px solid #00ADB5;
-                            border-radius: 30px;
+                            @extend %bordes;
                             margin-bottom: 3px;
                             padding: 5px;
                             &:hover{
-                                background-color: #00acb53d;
+                                background-color: nth($colores, 3);
                                 border-radius: 30px;
                             }
                             &:focus{
-                                color: #00ADB5;
+                                color: nth($colores, 2);
                             }
                         }
                     }
