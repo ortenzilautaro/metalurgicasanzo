@@ -56,7 +56,7 @@ footer {
         .atencion {
             @include flex(flex, space-around, center, column);
             width: 40%;
-            background-color: nth($colores, 3 );
+            background-color: nth($colores, 3);
             text-shadow: 3px 2px 0px rgba(0, 0, 0, 1);
             border: 5px solid nth($colores, 2);
             margin: 0 20px 10px 0;

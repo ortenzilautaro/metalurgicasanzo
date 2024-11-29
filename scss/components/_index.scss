@@ -60,10 +60,7 @@
             margin: 10px 20px;
         }
         div{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
+            @include flex(flex, center, center, column);
             width: 50%;
             h2{
                 padding: 10px;

@@ -2,8 +2,7 @@
     @include flex(flex, normal, center, column);
     width: 100%;
     .formulario-y-comunicacion{
-        display: flex;
-        flex-direction: row;
+        @include flex(flex, normal, normal, row);
         width: 100%;
         .formulario{
             @include flex (flex, normal, start, column);
@@ -24,7 +23,6 @@
                 padding: 10px;
                 width: 100%;
                 label{
-                    margin-left: 40px;
                     color: nth($colores, 1);
                     font-size: 20px;
                     letter-spacing: 1px;
@@ -49,7 +47,7 @@
                 .datos-area{
                     @include flex(flex, normal, end, column);
                     width: 100%;
-                    padding: 10px 40px;
+                    padding: 10px;
                     textarea{
                         width: 100%;
                         padding: 5px;
@@ -71,6 +69,7 @@
                 text-align: center;
                 width: 100%;
                 margin: 5px;
+                padding: 0 5px;
                 font-size: 30px;
                 letter-spacing: 2px;
                 color: nth($colores, 1);

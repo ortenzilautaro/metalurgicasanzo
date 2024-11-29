@@ -21,7 +21,7 @@ body span{
 }
 
 .activo{
-    background-color: #00acb52f;
+    background-color: nth($colores, 3);
     border-radius: 30px;
 }
 
@@ -32,7 +32,7 @@ main p{
     font-size: 20px;
     letter-spacing: 1px;
     line-height: 30px;
-    color: #fff;
+    color: nth($colores, 1);
 }
 main h2{
     font-family: "Agdasima", sans-serif;
@@ -41,7 +41,7 @@ main h2{
     font-size: 35px;
     letter-spacing: 1px;
     line-height: 50px;
-    color: #fff;
+    color: nth($colores, 1);
     text-shadow: 5px 3px 0px rgba(0,0,0,1);
     margin: 0;
 }
@@ -52,7 +52,7 @@ main h3{
     font-size: 30px;
     letter-spacing: 1px;
     line-height: 30px;
-    color: #fff;
+    color: nth($colores, 1);
     text-shadow: 5px 3px 0px rgba(0,0,0,1);
 }
 
@@ -63,17 +63,17 @@ footer h2{
     font-style: normal;
     letter-spacing: 1px;
     line-height: 30px;
-    color: #fff;
+    color: nth($colores, 1);
     text-align: center;
 }
 
 footer p{
-    color: #fff;
+    color: nth($colores, 1);
     font-family: "PT Serif", serif;
     font-weight: 400;
     font-style: normal;
     letter-spacing: 2px;
-    color: #fff;
+    color: nth($colores, 1);
     text-align: center;
 }
 
@@ -83,11 +83,8 @@ footer p{
     line-height: 16px;
 }
 .owl-theme .owl-dots, .owl-theme .owl-nav span{
-    color: #fff;
+    color: nth($colores, 1);
     font-size: 32px;
-}
-.no-js .owl-carousel, .owl-carousel.owl-loaded{
-    width: 95%;
 }
 .w-100{
     height: 400px;
@@ -110,14 +107,14 @@ footer p{
 }
 /*PREGUNTAS FRECUENTES*/
 .accordion{
-    --bs-accordion-bg: #00acb53d;
-    --bs-accordion-border-color: rgb(47, 200, 238); 
+    --bs-accordion-bg: nth($colores, 3);
+    --bs-accordion-border-color: nth($colores, 2); 
     padding: 10px 20px 10px 20px;
     width: 100%;
 }
 .accordion-button:not(.collapsed){
-    background-color: #00acb53d;
-    color: #fff;
+    background-color: nth($colores, 3);
+    color: nth($colores, 1);
     font-family: "Agdasima", sans-serif;
     font-weight: 700;
     font-style: normal;
@@ -126,7 +123,7 @@ footer p{
     line-height: 26px;
 }
 .accordion-button{
-    color: #fff;
+    color: nth($colores, 1);
     font-family: "Agdasima", sans-serif;
     font-weight: 700;
     font-style: normal;
@@ -135,7 +132,7 @@ footer p{
     line-height: 26px;
 }
 .accordion-body{
-    color: #fff;
+    color: nth($colores, 1);
     font-family: "PT Serif", serif;
     font-weight: 400;
     font-style: normal;
@@ -144,7 +141,7 @@ footer p{
     line-height: 19px;
 }
 .accordion-button::after{
-    background-color: #fff;
+    background-color: nth($colores, 1);
 }
 .accordion-button:focus {
     box-shadow: none;
