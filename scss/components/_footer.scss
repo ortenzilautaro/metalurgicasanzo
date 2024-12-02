@@ -1,5 +1,6 @@
 footer {
     @include flex(flex, normal, normal, column);
+    background: linear-gradient(to top, nth($colores, 2), transparent);
 
     .footerdiv {
         @include flex (flex, space-between, normal, row);
