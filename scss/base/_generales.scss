@@ -107,8 +107,8 @@ footer p{
 }
 /*PREGUNTAS FRECUENTES*/
 .accordion{
-    --bs-accordion-bg: nth($colores, 3);
-    --bs-accordion-border-color: nth($colores, 2); 
+    --bs-accordion-bg: rgba(0, 172, 181, 0.2392156863);
+    --bs-accordion-border-color: rgb(47, 200, 238); 
     padding: 10px 20px 10px 20px;
     width: 100%;
 }

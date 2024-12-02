@@ -74,6 +74,7 @@ header{
                     padding: 10px;
                     height: max-content;
                     text-shadow: 5px 3px 0px rgba(0,0,0,1);
+                    transition: color, 0.3s;
                     &:hover{
                         background-color: nth($colores , 3);
                     }
@@ -133,6 +134,7 @@ header{
                             padding: 4px 0px;
                             @extend %bordes;
                             margin-bottom: 4px;
+                            transition: color, 0.3s;
                             &:hover{
                                 background-color: nth($colores, 3);
                                 border-radius: 30px;

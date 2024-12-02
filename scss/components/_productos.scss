@@ -43,6 +43,7 @@
                         text-shadow: 5px 3px 0px rgba(0,0,0,1);
                         width: 50%;
                         background-color: transparent;
+                        transition: color, 0.3s;
                         &:hover{
                             background-color: nth($colores, 3);
                         }
