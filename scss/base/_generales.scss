@@ -29,7 +29,7 @@ main p{
     font-family: "PT Serif", serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 20px;
+    font-size: $font-body;
     letter-spacing: 1px;
     line-height: 30px;
     color: nth($colores, 1);
