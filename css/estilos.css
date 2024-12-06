@@ -436,6 +436,9 @@ header nav .navegadorp div ul .nav-item a:focus {
 .confian h2 {
   line-height: 25px;
 }
+.confian div {
+  overflow: hidden;
+}
 .confian div .tarjeta {
   background: linear-gradient(to top, transparent, rgb(47, 200, 238));
   border-radius: 30px;
@@ -475,6 +478,7 @@ header nav .navegadorp div ul .nav-item a:focus {
   flex-direction: column;
   width: 100%;
   margin: 20px;
+  overflow: hidden;
 }
 .titulo .productos .nuestros-productos .producto {
   display: flex;
@@ -572,6 +576,7 @@ header nav .navegadorp div ul .nav-item a:focus {
   grid-template-areas: "novedades novedades" "capacitaciones maquinaria" "incorporaciones incorporaciones" "incorporaciones incorporaciones" "certificado .";
   margin: 5px 20px 20px 20px;
   gap: 20px;
+  overflow: hidden;
 }
 .novedades h2 {
   grid-area: novedades;

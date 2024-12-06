@@ -83,6 +83,7 @@
         line-height: 25px;
     }
     div{
+        overflow: hidden;
         .tarjeta{
             background: linear-gradient(to top, transparent, nth($colores, 2));
             border-radius: 30px;
