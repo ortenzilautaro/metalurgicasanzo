@@ -477,7 +477,6 @@ header nav .navegadorp div ul .nav-item a:focus {
   align-items: center;
   flex-direction: column;
   width: 100%;
-  margin: 20px;
   overflow: hidden;
 }
 .titulo .productos .nuestros-productos .producto {
@@ -487,7 +486,7 @@ header nav .navegadorp div ul .nav-item a:focus {
   flex-direction: row;
   height: 10%;
   width: 70%;
-  margin-bottom: 20px;
+  margin: 20px;
   border: 3px solid rgb(47, 200, 238);
   background: rgba(0, 0, 0, 0.5);
   transition: transform, 0.5s;
@@ -1016,14 +1015,9 @@ footer iframe {
     align-items: center;
     flex-direction: column;
   }
-  .titulo .productos .nuestros-productos {
-    margin: 10px;
-  }
   .titulo .productos .nuestros-productos .producto {
     width: 90%;
-  }
-  .titulo .productos .filtrar {
-    margin: 10px;
+    margin: 20px 20px 10px 20px;
   }
   .titulo .productos .filtrar ul {
     margin-left: 10px;
@@ -1136,7 +1130,9 @@ footer iframe {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 97%;
+    width: 90%;
+    margin: 10px 0 0 0;
+    padding: 0px;
   }
   .titulo .productos .filtrar ul {
     display: flex;
@@ -1149,12 +1145,13 @@ footer iframe {
     list-style: none;
   }
   .titulo .productos .nuestros-productos {
-    width: 97%;
+    width: 100%;
     margin: 0px;
+    padding: 15px 30px 30px 30px;
   }
   .titulo .productos .nuestros-productos .producto {
-    width: 100%;
-    margin-bottom: 10px;
+    width: 97%;
+    margin: 0 0 15px 0;
   }
   .novedades {
     grid-template-columns: 0.5fr 0.5fr;
@@ -1223,16 +1220,12 @@ footer iframe {
   }
 }
 @media screen and (max-width: 793px) {
-  .titulo .productos .nuestros-productos {
-    margin: 10px 10px 0px 10px;
-  }
   .titulo .productos .filtrar {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
     align-items: start;
     justify-items: start;
-    margin: 10px;
   }
   .titulo .productos .filtrar h2 {
     grid-column: 1/2;
@@ -1344,6 +1337,14 @@ footer iframe {
   .novedades {
     grid-template-columns: 1fr;
     grid-template-rows: 30px 275px 275px 275px 275px;
+  }
+  .titulo .productos .nuestros-productos {
+    padding: 15px 20px 20px 20px;
+  }
+}
+@media screen and (max-width: 516px) {
+  .titulo .productos .filtrar ul {
+    grid-template-columns: 1.8fr 1fr;
   }
 }
 @media screen and (max-width: 490px) {
