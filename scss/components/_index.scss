@@ -30,6 +30,7 @@
 
     .nempresa1 {
         @include flex (flex, center, center, row-reverse);
+        overflow:hidden;
 
         img {
             @extend %nempresa-img;
@@ -55,6 +56,7 @@
     }
     .nempresa2{
         @include flex (flex, center, normal, row);
+        overflow:hidden;
         img{
             @extend %nempresa-img;
             margin: 10px 20px;

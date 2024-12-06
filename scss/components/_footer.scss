@@ -4,6 +4,7 @@ footer {
 
     .footerdiv {
         @include flex (flex, space-between, normal, row);
+        overflow:hidden;
 
         .redes {
             @include flex(flex, normal, center, column);

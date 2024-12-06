@@ -377,6 +377,7 @@ header nav .navegadorp div ul .nav-item a:focus {
   justify-content: center;
   align-items: center;
   flex-direction: row-reverse;
+  overflow: hidden;
 }
 .nempresa .nempresa1 img {
   margin: 10px 20px;
@@ -403,6 +404,7 @@ header nav .navegadorp div ul .nav-item a:focus {
   justify-content: center;
   align-items: normal;
   flex-direction: row;
+  overflow: hidden;
 }
 .nempresa .nempresa2 img {
   margin: 10px 20px;
@@ -748,6 +750,7 @@ footer .footerdiv {
   justify-content: space-between;
   align-items: normal;
   flex-direction: row;
+  overflow: hidden;
 }
 footer .footerdiv .redes {
   display: flex;
