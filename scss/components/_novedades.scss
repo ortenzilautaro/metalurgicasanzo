@@ -8,7 +8,7 @@
         "capacitaciones maquinaria"
         "incorporaciones incorporaciones"
         "incorporaciones incorporaciones"
-        "certificado .";
+        "certificado certificado";
     margin: 5px 20px 20px 20px;
     gap: 20px;
     overflow: hidden;
@@ -53,5 +53,8 @@
 
     .certificado {
         grid-area: certificado;
+        width: 500px;
+        display: block;
+        justify-self: center;
     }
 }

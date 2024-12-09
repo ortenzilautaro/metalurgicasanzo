@@ -69,6 +69,9 @@
     grid-template-columns: 400px 400px;
     grid-template-rows: 40px 250px 250px 250px 250px;
     }
+    .novedades .certificado{
+        width: 400px;
+    }
     .contactos .formulario-y-comunicacion .formulario .datos label{
         font-size: 16px;
     }
@@ -467,6 +470,9 @@
         "maquinaria"
         "incorporaciones"
         "certificado";
+    }
+    .novedades .certificado{
+        width: 100%;
     }
 }
 @media screen and (max-width: 590px){

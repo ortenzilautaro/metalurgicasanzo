@@ -572,7 +572,7 @@ header nav .navegadorp div ul .nav-item a:focus {
   justify-content: center;
   grid-template-columns: 500px 500px;
   grid-template-rows: 50px 300px 300px 300px 300px;
-  grid-template-areas: "novedades novedades" "capacitaciones maquinaria" "incorporaciones incorporaciones" "incorporaciones incorporaciones" "certificado .";
+  grid-template-areas: "novedades novedades" "capacitaciones maquinaria" "incorporaciones incorporaciones" "incorporaciones incorporaciones" "certificado certificado";
   margin: 5px 20px 20px 20px;
   gap: 20px;
   overflow: hidden;
@@ -610,6 +610,9 @@ header nav .navegadorp div ul .nav-item a:focus {
 }
 .novedades .certificado {
   grid-area: certificado;
+  width: 500px;
+  display: block;
+  justify-self: center;
 }
 
 .preguntas-frecuentes {
@@ -902,6 +905,9 @@ footer iframe {
   .novedades {
     grid-template-columns: 400px 400px;
     grid-template-rows: 40px 250px 250px 250px 250px;
+  }
+  .novedades .certificado {
+    width: 400px;
   }
   .contactos .formulario-y-comunicacion .formulario .datos label {
     font-size: 16px;
@@ -1326,6 +1332,9 @@ footer iframe {
     grid-template-columns: 0.9fr;
     grid-template-rows: 30px 300px 300px 300px 300px;
     grid-template-areas: "novedades" "capacitaciones" "maquinaria" "incorporaciones" "certificado";
+  }
+  .novedades .certificado {
+    width: 100%;
   }
 }
 @media screen and (max-width: 590px) {
