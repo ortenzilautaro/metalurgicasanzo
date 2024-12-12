@@ -1,6 +1,7 @@
 header{
     width: 100%;
     @include flex (flex, center, normal, column);
+    overflow: hidden;
     p{
         color: nth($colores, 1);
         padding: 10px 0;

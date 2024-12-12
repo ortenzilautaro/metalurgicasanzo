@@ -177,6 +177,7 @@ header {
   justify-content: center;
   align-items: normal;
   flex-direction: column;
+  overflow: hidden;
 }
 header p {
   color: #fff;
@@ -751,6 +752,7 @@ footer {
   align-items: normal;
   flex-direction: column;
   background: linear-gradient(to top, rgb(47, 200, 238), transparent);
+  overflow: hidden;
 }
 footer .footerdiv {
   display: flex;
@@ -794,7 +796,7 @@ footer .footerdiv .redes .redesgrupo div a img {
   height: 40px;
   width: 40px;
   margin: 0 0 0 10px;
-  transition: transform, 1s;
+  transition: transform 1s;
 }
 footer .footerdiv .redes .redesgrupo div a img:hover {
   transform: rotateY(360deg);
@@ -832,6 +834,7 @@ footer .footerdiv .atencion p {
 }
 footer iframe {
   width: 100%;
+  height: 70%;
   padding: 0 20px;
 }
 
@@ -882,9 +885,6 @@ footer iframe {
   }
   .contactos .formulario-y-comunicacion .comunicacion div {
     margin: 5px;
-  }
-  footer iframe {
-    height: 400px;
   }
 }
 @media screen and (max-width: 1094px) {
@@ -944,9 +944,6 @@ footer iframe {
     font-size: 15px;
     letter-spacing: 1px;
     line-height: 16px;
-  }
-  footer iframe {
-    height: 300px;
   }
 }
 @media screen and (max-width: 1000px) {
@@ -1322,9 +1319,6 @@ footer iframe {
     height: 200px;
     margin: 5px;
     padding: 5px;
-  }
-  footer iframe {
-    height: 200px;
   }
 }
 @media screen and (max-width: 660px) {
