@@ -279,17 +279,6 @@ header nav .navegadorp {
   padding: 0 10px;
   margin: 5px 0;
 }
-header nav .navegadorp > a {
-  font-family: "Agdasima", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 35px;
-  letter-spacing: 1px;
-  line-height: 35px;
-  color: #fff;
-  text-shadow: 5px 3px 0px rgb(0, 0, 0);
-  padding: 0 5px;
-}
 header nav .navegadorp button {
   display: flex;
   justify-content: start;
@@ -299,6 +288,7 @@ header nav .navegadorp button {
 }
 header nav .navegadorp button span {
   width: max-content;
+  height: max-content;
 }
 header nav .navegadorp button span img {
   width: max-content;

@@ -92,22 +92,12 @@ header{
             justify-content: start;
             padding: 0 10px;
             margin: 5px 0;
-            >a{
-                font-family: "Agdasima", sans-serif;
-                font-weight: 700;
-                font-style: normal;
-                font-size: 35px;
-                letter-spacing: 1px;
-                line-height: 35px;
-                color: nth($colores, 1);
-                text-shadow: 5px 3px 0px rgba(0,0,0,1);
-                padding: 0 5px;
-            }
             button{
                 @include flex(flex, start, normal, column);
                 width: max-content;
                 span{
                     width: max-content;
+                    height: max-content;
                     img{
                         width: max-content;
                 }
